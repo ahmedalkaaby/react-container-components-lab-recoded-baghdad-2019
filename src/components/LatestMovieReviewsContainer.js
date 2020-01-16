@@ -11,7 +11,7 @@ class LatestMovieReviewsContainer extends Component {
   state = {
       Riviews: []
     };
-  }
+  
 
   componentDidMount() {
     fetch(URL)
@@ -26,5 +26,5 @@ class LatestMovieReviewsContainer extends Component {
       <div className="latest-movie-reviews"><MovieReviews reviews={this.state.reviews} /></div>
     )
   }
-
+}
   export default LatestMovieReviewsContainer;
