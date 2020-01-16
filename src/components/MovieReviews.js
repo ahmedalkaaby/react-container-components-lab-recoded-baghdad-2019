@@ -1,7 +1,7 @@
 // Code MovieReviews Here
 import React from ' react'
 
-const MovieReviews = {(reviews)} =>{
+const MovieReviews = ({reviews}) =>{
   <ul className="review-list">
   {
   reviews.map(movie=>{
