@@ -11,7 +11,7 @@ class LatestMovieReviewsContainer extends Component {
   state = {
       Riviews: []
     };
-  
+
 
   componentDidMount() {
     fetch(URL)
